@@ -1,0 +1,78 @@
+.login-image{
+	max-width:440px;
+	text-align: center;
+	padding:10px;
+}
+.login-image .mef-logo{
+	max-width:300px;
+	margin:0 auto 30px;
+}
+.login-image img{
+	width:35%;
+}
+/* Form login */
+.login-image{
+    text-align: center;
+}
+.login-box .form-group .checkbox{font-family: 'Battambang', sans serif}
+.login-box .form-group input::-webkit-input-placeholder{
+	font-family: 'Battambang', sans serif !important;
+	color:#e8e8e8;
+}
+.login-box .form-group input::-ms-input-placeholder{
+	font-family: 'Battambang', sans serif !important;
+	color:#e8e8e8;
+}
+.login-box{
+
+    font-family: 'Battambang' !important;
+}
+.blg-btn-login {
+    border-radius: 3px;
+    padding: 0.40rem 0.40rem;
+    color:#e8e8e8;
+    font-family: 'Battambang', sans serif;
+    font-size: 13px;
+    background: #00A91C;
+    border-color: #00A91C;
+    width: 140px;
+    float: right;
+}
+
+input[type="text"],
+input[type="password"]{
+	width: 100%;
+	padding: 0 0 0 10px;
+	margin: 0;
+	color: #8a8b8e;
+	border: 1px solid #c2c0ca;
+	font-style: normal;
+	font-size: 16px;
+	appearance: none;
+	position: relative;
+	display: inline-block;
+	background: none;
+	&:focus {
+		border-color:#007bff;
+		&:invalid  {
+			color:#cc1e2b;
+			border-color:#cc1e2b;
+		}
+	}
+}
+label:not(.form-check-label):not(.custom-file-label) {
+    font-weight: 500 !important;
+  }
+.login-page{
+    background-image: url("../../assets/images/web_login.png");;
+}
+.profile-pic {
+	width: 30px;
+	border-radius: 100%;
+ }
+ .divider {
+    height: 1px;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    background-color: #eceeef;
+  }
